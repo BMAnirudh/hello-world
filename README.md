@@ -1,7 +1,13 @@
 # hello-world
-First repository
+First repository.
+
+A simple C program that prints a greeting:
+
+```c
 #include <stdio.h>
-void main()
-{
-printf("Hi I am Anirudh");
+
+int main(void) {
+    printf("Hi I am Anirudh\n");
+    return 0;
 }
+```
